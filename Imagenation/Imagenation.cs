@@ -33,7 +33,7 @@ namespace Imagenation
 
         public void Dispose()
         {
-            Safe(http.Dispose);
+            Safe(() => http.Dispose(), true);
             Svc.PluginInterface.UiBuilder.Draw -= ws.Draw;
             ECommons.ECommons.Dispose();
             P = null;

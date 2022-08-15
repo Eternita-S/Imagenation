@@ -13,12 +13,14 @@ namespace Imagenation
         public Scene() : base("Imagenation scene", ImGuiWindowFlags.AlwaysUseWindowPadding | ImGuiWindowFlags.NoNav | ImGuiWindowFlags.NoInputs | ImGuiWindowFlags.NoDecoration | ImGuiWindowFlags.NoBackground, true)
         {
             this.RespectCloseHotkey = false;
+            this.IsOpen = true;
         }
 
         public override void PreDraw()
         {
             ImGui.PushStyleVar(ImGuiStyleVar.WindowPadding, Vector2.Zero);
             this.Size = ImGuiHelpers.MainViewport.Size;
+            this.Position = Vector2.Zero;
         }
 
         public override void Draw()
