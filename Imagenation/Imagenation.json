@@ -1,0 +1,10 @@
+﻿{
+  "Author": "Eternita",
+  "Name": "Imagenation",
+  "InternalName": "Imagenation",
+  "AssemblyVersion": "9.0.0.0",
+  "Description": "[beta] An image drawing backend",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 6,
+  "LoadPriority": 0
+}
