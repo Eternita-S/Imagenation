@@ -16,7 +16,7 @@ namespace Imagenation
         public Imagenation(DalamudPluginInterface pi)
         {
             P = this;
-            ECommons.ECommons.Init(pi);
+            ECommonsMain.Init(pi, this);
             new TickScheduler(delegate
             {
                 scene = new();
@@ -35,7 +35,7 @@ namespace Imagenation
         {
             Safe(() => http.Dispose(), true);
             Svc.PluginInterface.UiBuilder.Draw -= ws.Draw;
-            ECommons.ECommons.Dispose();
+            ECommonsMain.Dispose();
             P = null;
         }
     }
