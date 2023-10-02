@@ -1,10 +1,9 @@
 ﻿{
-  "Author": "NightmareXIV",
-  "Name": "Imagenation",
-  "InternalName": "Imagenation",
-  "AssemblyVersion": "9.0.0.0",
-  "Description": "[beta] An image drawing backend. To be used together with Triggernometry.",
-  "ApplicableVersion": "any",
-  "DalamudApiLevel": 8,
-  "LoadPriority": 0
+    "Author": "NightmareXIV",
+    "Name": "Imagenation",
+    "InternalName": "Imagenation",
+    "Description": "An image drawing backend. To be used together with Triggernometry.",
+    "Punchline": "An image drawing backend. To be used together with Triggernometry.",
+    "ApplicableVersion": "any",
+    "LoadPriority": 0
 }
