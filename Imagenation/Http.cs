@@ -1,4 +1,5 @@
-﻿using ECommons.Schedulers;
+﻿using ECommons.Logging;
+using ECommons.Schedulers;
 using System;
 using System.Collections.Generic;
 using System.IO;

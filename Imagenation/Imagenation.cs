@@ -13,7 +13,7 @@ namespace Imagenation
         internal List<DrawRequest> Requests = new();
         internal Http http;
 
-        public Imagenation(DalamudPluginInterface pi)
+        public Imagenation(IDalamudPluginInterface pi)
         {
             P = this;
             ECommonsMain.Init(pi, this);

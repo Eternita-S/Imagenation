@@ -1,5 +1,6 @@
 ﻿using Dalamud.Game.ClientState.Conditions;
 using Dalamud.Interface.Utility;
+using ECommons.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
